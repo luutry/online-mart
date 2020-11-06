@@ -34,17 +34,17 @@
         </jdbcConnection>
 
         <!--指定生成model的路径-->
-        <javaModelGenerator targetPackage="com.luutry.onlinemart.mbg.model" targetProject="online-mart\src\main\java"/>
+        <javaModelGenerator targetPackage="com.luutry.onlinemart.mbg.model" targetProject="src\main\java"/>
 
         <!--指定生成mapper.xml的路径-->
-        <sqlMapGenerator targetPackage="com.luutry.onlinemart.mbg.mapper" targetProject="online-mart\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.luutry.onlinemart.mbg.mapper" targetProject="src\main\resources"/>
 
         <!--指定生成mapper接口的的路径-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.luutry.onlinemart.mbg.mapper" targetProject="online-mart\src\main\java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.luutry.onlinemart.mbg.mapper" targetProject="src\main\java"/>
 
 
         <!--生成全部表tableName设为%-->
-        <table tableName="pms_brand">
+        <table tableName="ums_user">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
